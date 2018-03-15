@@ -1,10 +1,10 @@
 # AzureStorageTools
 
-A small (slightly opinionated) NuGet package to help with some of the dumb stuff when it comes to working with Azure storage. It depends on `WindowsAzure.Storage`.
+A small (slightly opinionated) NuGet package to help with some of the dumb stuff when it comes to working with Azure storage. It depends on `WindowsAzure.Storage`. If you're installing into a Function App project, you may need to manually add `Newtonsoft.Json` to your project, because the version referenced by `WindowsAzure.Storage` differs from that held by `Microsoft.NET.Sdk.Functions`.
 
 	Install-Package SteGriff.AzureStorageTools
 	
-Remember to add `using SteGriff.AzureStorageTools`
+Remember to add `using SteGriff.AzureStorageTools` to the top of your code files where you use it.
 
 ## Contents
 

@@ -1,7 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <PackageProjectUrl>https://github.com/SteGriff/AzureStorageTools</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/SteGriff/AzureStorageTools</PackageLicenseUrl>
+    <PackageTags>Azure Storage Blob Table</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright (C) Stephen Griffiths 2018</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
